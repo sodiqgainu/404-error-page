@@ -1,0 +1,66 @@
+header h1{
+font-family: Inconsolata;
+font-size: 24px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-align: left;
+margin-left: 30px;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+}
+main .left{
+   max-width:500px;
+}
+main .left img{
+    width:100%;
+}
+main .right{
+    width:500px;
+}
+main .right h1{
+    font-family:monospace;
+    font-size:64px;
+    letter-spacing: -3.5%;
+    line-height: 94.78px;
+    font-weight: 700;
+  color: #333333;
+
+}
+main .right p{
+    font-family:space monospace;
+    font-size:34px;
+    letter-spacing: -3.5%;
+    line-height: 35.54px;
+    font-weight: 400;
+    color:#4F4F4F;
+    
+}
+main .right button{
+    width:216px;
+    height:68px;
+    background: #191919;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+main .right button a{
+    text-decoration: none;
+    color:whitesmoke;
+   
+    width: 100%;
+}
+@media (max-width:1424px) {
+    main{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    main .left {
+        width:500px
+    }
+}
