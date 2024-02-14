@@ -53,7 +53,7 @@ main .right button a{
     color:whitesmoke;
     
 }
-@media (max-width:760px) {
+@media (max-width:932px) {
     main{
         flex-direction: column;
         align-items: center;
